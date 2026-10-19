@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "browser": "156.0.8078.4",
+  "steps": [
+    "Loaded licensed real speech and music via visible demo button",
+    "Prepared -24 LUFS speech and switched playback at corresponding position (2.222s); decoded playback only, no human listening",
+    "Reloaded and reattached real files through file picker; matching hashes restored saved targets",
+    "Rejected settings restoration for modified same-name source; exact source remained unattached",
+    "Imported project JSON and recovered targets after source hash matching",
+    "Exported WAV ZIP in browser; independently reopened and measured every output using libsndfile, pyloudnorm and scipy",
+    "Real speech with -9 LUFS / -9 dBTP produced explicit partial export; independent meter confirmed failed loudness target and preserved peak limit",
+    "Reopened exported PCM 24-bit WAV in browser decoder; duration 14.84 seconds"
+  ],
+  "page_errors": [],
+  "human_listening": false
+}
