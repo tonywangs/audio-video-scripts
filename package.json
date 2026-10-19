@@ -1,0 +1,18 @@
+{
+  "name": "audio-excerpt-desk",
+  "version": "1.0.0",
+  "description": "A local audio workbench for selecting, auditioning, and exporting named excerpts with precise source references.",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "python3 scripts/demo.py && python3 scripts/serve.py",
+    "test": "playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "type": "module",
+  "devDependencies": {
+    "@playwright/test": "^1.64.1"
+  }
+}
