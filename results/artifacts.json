@@ -1,0 +1,17 @@
+{
+  "recorded_utc": "2026-10-19T16:27:02.033284+00:00",
+  "artifacts": {
+    "fixtures/sintel_en.srt": "4ed7e1f1bc5ff69fe33606960e4c048ba6766237bf33b132fef76e1a92cb64b2",
+    "results/corrected.srt": "f4f664845000a523fbd6bf45253498c9c4737bdf60ca032fece5549cf4dc8e76",
+    "results/corrected.vtt": "839dd8b64e7dc1a240ea3f215e522cf6ce2f9a82c331c54cab63fdec64c1e375",
+    "results/offset.srt": "f4f664845000a523fbd6bf45253498c9c4737bdf60ca032fece5549cf4dc8e76",
+    "results/offset.vtt": "839dd8b64e7dc1a240ea3f215e522cf6ce2f9a82c331c54cab63fdec64c1e375",
+    "results/native-vtt.json": "47093b16fbef79cd3a121b61bb162bf4002c0f62c5abb56acf40a5103ac96fb5",
+    "results/browser.json": "43e779aa10e8be9597052178cc98b8ecfd7f6d428dcd40e9bfafbf6ad6025f49",
+    "results/exports.json": "a23ac75523c4143390b77ce2325997d21d25dafccc093a0b4f29facc5ea76bdd",
+    "results/dialogue-base.json": "19bc6da631cf1b6b078ad97f61710d293c870295d9ff61334c10a1c69547dab5",
+    "results/dialogue-small.json": "e1c78ce09bc36b928d52f6f5c11db24f81ec0879b4215a177c404e2f8b377891",
+    "docs/demo-before.png": "6ec51e5834df8969f183b7125b75f6bf259317e41b8378c4e05f2e50c3d45172",
+    "docs/demo-after.png": "3326f8ede997f151db8a6cb7a0abe7f227f64c1b53415530484a528c8ac14cef"
+  }
+}
