@@ -1,0 +1,7 @@
+node_modules/
+.workspace/
+.cache/
+test-results/
+playwright-report/
+*.log
+!results/tests.log

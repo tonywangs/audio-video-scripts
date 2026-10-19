@@ -1,0 +1,2 @@
+import {defineConfig} from '@playwright/test';
+export default defineConfig({testDir:'./tests/browser',timeout:180000,workers:1,expect:{timeout:20000},use:{baseURL:'http://127.0.0.1:4328',headless:true,launchOptions:{executablePath:process.env.VIDEO_BROWSER||'/tmp/video-chrome/chrome-linux64/chrome',env:{...process.env,XDG_CONFIG_HOME:'/tmp/video-config'}}},webServer:{command:'node server.js',env:{PORT:'4328'},url:'http://127.0.0.1:4328/api/health',reuseExistingServer:false,timeout:20000}});

@@ -1,0 +1,7 @@
+{
+  "synthetic": true,
+  "generator": "FFmpeg testsrc2, 25fps, 160x90, 2 seconds; VFR irregular frame selection",
+  "absentAudio": "accepted, beginning/non-keyframe/end exported and independently verified",
+  "vfrRejected": true,
+  "reason": "Variable frame rate or irregular timestamps unsupported; normalize a copy first"
+}

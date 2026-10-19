@@ -1,0 +1,71 @@
+{
+  "sourceSha256": "35112e9ed5c22cff1430613cb74da2499ba157e589e659f97f48fba35442f8e5",
+  "tolerances": {
+    "version": 1,
+    "declaredBeforeVerification": true,
+    "requestedToRealizedBoundarySeconds": "less than one source frame",
+    "decodedFrameMeanAbsoluteErrorMax": 8,
+    "decodedFrameGeometry": "64x36 grayscale, bilinear, original image extent (ignore output even-dimension padding)",
+    "frameCountError": 0,
+    "videoDurationErrorSeconds": 0.002,
+    "containerDurationErrorSeconds": 0.05,
+    "audioAlignmentMaxSeconds": 0.01,
+    "audioCorrelationMin": 0.95,
+    "audioMethod": "independent full-source stereo decode at 48000Hz, average channels and six samples to 8000Hz; normalized cross-correlation of output at head, middle and tail within +/-80ms of expected source position",
+    "audioDurationErrorSeconds": 0.05,
+    "silentWindowPolicy": "report inconclusive; never claim audio alignment verified on silence",
+    "limitation": "Separate verification implementation shares FFmpeg decoder with export; this verifies preservation of source A/V timing, not whether the original itself was synchronized."
+  },
+  "clips": [
+    {
+      "name": "synthetic-begin",
+      "sha256": "14039a86cf638f9bcb827e5ab9a367c20f566d54b14dce8687d39bd550bc3551",
+      "expectedFirstFrame": 0,
+      "expectedLastFrame": 12,
+      "decodedFrames": 13,
+      "expectedFrames": 13,
+      "boundaryFrameMAE": [
+        0.3862847222222222,
+        0.5737847222222222
+      ],
+      "videoDurationError": 0,
+      "containerDurationError": 0,
+      "audioWindows": [],
+      "passed": true
+    },
+    {
+      "name": "synthetic-non-keyframe",
+      "sha256": "0a2b8da4c19569ed601c077ae583b5403a259d891f09ae6f3b2e3d1b1124765e",
+      "expectedFirstFrame": 11,
+      "expectedLastFrame": 25,
+      "decodedFrames": 15,
+      "expectedFrames": 15,
+      "boundaryFrameMAE": [
+        0.4079861111111111,
+        0.6302083333333334
+      ],
+      "videoDurationError": 0,
+      "containerDurationError": 0,
+      "audioWindows": [],
+      "passed": true
+    },
+    {
+      "name": "synthetic-end",
+      "sha256": "26c207db62b8c942013cb04cdd1ee8121a8a9c02bcb063d47a32aea58f86386a",
+      "expectedFirstFrame": 35,
+      "expectedLastFrame": 49,
+      "decodedFrames": 15,
+      "expectedFrames": 15,
+      "boundaryFrameMAE": [
+        0.46875,
+        0.5286458333333334
+      ],
+      "videoDurationError": 0,
+      "containerDurationError": 0,
+      "audioWindows": [],
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "sourceUnchanged": true
+}

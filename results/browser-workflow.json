@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "sourceSha256": "b2ded9ae5a20fa36ca8cec49ef923bffb5e1a51d9e8c1f8336273d2fa9d35ff0",
+  "clips": [
+    "Opening",
+    "Rabbit passage",
+    "Ending"
+  ],
+  "checks": [
+    "demo import",
+    "three named intervals",
+    "preview playback",
+    "edit",
+    "reload recovery",
+    "project transfer into fresh browser context",
+    "export all clips",
+    "reopen each clip in browser standalone player"
+  ],
+  "manifestPath": ".workspace/exports/e44c16ad-0549-4bed-a682-e2f5943d849e/manifest.json"
+}

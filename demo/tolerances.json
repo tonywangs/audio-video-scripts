@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "declaredBeforeVerification": true,
+  "requestedToRealizedBoundarySeconds": "less than one source frame",
+  "decodedFrameMeanAbsoluteErrorMax": 8,
+  "decodedFrameGeometry": "64x36 grayscale, bilinear, original image extent (ignore output even-dimension padding)",
+  "frameCountError": 0,
+  "videoDurationErrorSeconds": 0.002,
+  "containerDurationErrorSeconds": 0.05,
+  "audioAlignmentMaxSeconds": 0.01,
+  "audioCorrelationMin": 0.95,
+  "audioMethod": "independent full-source stereo decode at 48000Hz, average channels and six samples to 8000Hz; normalized cross-correlation of output at head, middle and tail within +/-80ms of expected source position",
+  "audioDurationErrorSeconds": 0.05,
+  "silentWindowPolicy": "report inconclusive; never claim audio alignment verified on silence",
+  "limitation": "Separate verification implementation shares FFmpeg decoder with export; this verifies preservation of source A/V timing, not whether the original itself was synchronized."
+}
