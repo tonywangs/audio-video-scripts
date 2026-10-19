@@ -1,0 +1,122 @@
+{
+  "sourceSha256": "b2ded9ae5a20fa36ca8cec49ef923bffb5e1a51d9e8c1f8336273d2fa9d35ff0",
+  "tolerances": {
+    "version": 1,
+    "declaredBeforeVerification": true,
+    "requestedToRealizedBoundarySeconds": "less than one source frame",
+    "decodedFrameMeanAbsoluteErrorMax": 8,
+    "decodedFrameGeometry": "64x36 grayscale, bilinear, original image extent (ignore output even-dimension padding)",
+    "frameCountError": 0,
+    "videoDurationErrorSeconds": 0.002,
+    "containerDurationErrorSeconds": 0.05,
+    "audioAlignmentMaxSeconds": 0.01,
+    "audioCorrelationMin": 0.95,
+    "audioMethod": "independent full-source stereo decode at 48000Hz, average channels and six samples to 8000Hz; normalized cross-correlation of output at head, middle and tail within +/-80ms of expected source position",
+    "audioDurationErrorSeconds": 0.05,
+    "silentWindowPolicy": "report inconclusive; never claim audio alignment verified on silence",
+    "limitation": "Separate verification implementation shares FFmpeg decoder with export; this verifies preservation of source A/V timing, not whether the original itself was synchronized."
+  },
+  "clips": [
+    {
+      "name": "Opening",
+      "sha256": "a5b223438d3fde28682e1f92df229fbef0f7c632c47915577a4f2828fd8d5c51",
+      "expectedFirstFrame": 0,
+      "expectedLastFrame": 50,
+      "decodedFrames": 51,
+      "expectedFrames": 51,
+      "boundaryFrameMAE": [
+        0.65625,
+        0.6909722222222222
+      ],
+      "videoDurationError": 0,
+      "containerDurationError": 0,
+      "audioWindows": [
+        {
+          "outputSeconds": 0,
+          "correlation": 0.9999674015639605,
+          "lagSeconds": 0
+        },
+        {
+          "outputSeconds": 0.774,
+          "correlation": 0.9999822532168606,
+          "lagSeconds": 0
+        },
+        {
+          "outputSeconds": 1.548,
+          "correlation": 0.9950274204218884,
+          "lagSeconds": 0
+        }
+      ],
+      "audioDurationError": 0,
+      "passed": true
+    },
+    {
+      "name": "Rabbit passage",
+      "sha256": "69e16942ed0576336481a8589b62f6c1edc93bbb4283a27057fe7a00a513486b",
+      "expectedFirstFrame": 126,
+      "expectedLastFrame": 200,
+      "decodedFrames": 75,
+      "expectedFrames": 75,
+      "boundaryFrameMAE": [
+        0.4544270833333333,
+        0.6966145833333334
+      ],
+      "videoDurationError": 0,
+      "containerDurationError": 0,
+      "audioWindows": [
+        {
+          "outputSeconds": 0,
+          "correlation": 0.9991981066793636,
+          "lagSeconds": 0
+        },
+        {
+          "outputSeconds": 1.254,
+          "correlation": 0.9997496119406891,
+          "lagSeconds": 0
+        },
+        {
+          "outputSeconds": 2.508,
+          "correlation": 0.9884497439345435,
+          "lagSeconds": 0
+        }
+      ],
+      "audioDurationError": 0,
+      "passed": true
+    },
+    {
+      "name": "Ending",
+      "sha256": "4f215ddcf83103c614233f35d38479caadd9a4550cbfcfee30a7f6ceeb58db21",
+      "expectedFirstFrame": 751,
+      "expectedLastFrame": 810,
+      "decodedFrames": 60,
+      "expectedFrames": 60,
+      "boundaryFrameMAE": [
+        0.75390625,
+        0.6701388888888888
+      ],
+      "videoDurationError": 0,
+      "containerDurationError": 0,
+      "audioWindows": [
+        {
+          "outputSeconds": 0,
+          "correlation": 0.9942435567975204,
+          "lagSeconds": 0
+        },
+        {
+          "outputSeconds": 0.95525,
+          "correlation": 0.9998026385977616,
+          "lagSeconds": 0
+        },
+        {
+          "outputSeconds": 1.910625,
+          "correlation": 0.9993341584031616,
+          "lagSeconds": 0
+        }
+      ],
+      "audioDurationError": 0,
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "sourceUnchanged": true
+}
