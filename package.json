@@ -1,0 +1,5 @@
+{
+  "name": "subtitle-sync-desk", "version": "1.0.0", "private": true, "type": "module",
+  "scripts": {"start": "node server.mjs", "test": "node --test tests/core.test.mjs", "test:browser": "node tests/browser.mjs"},
+  "devDependencies": {"@playwright/test": "1.58.2"}
+}
