@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "declared_before_real_export_evaluation": true,
+  "integrated_loudness_lu": 0.5,
+  "meter_disagreement_lu": 0.5,
+  "peak_limit_db": 0.1,
+  "peak_estimator_disagreement_db": 0.5,
+  "duration_samples": 0,
+  "sample_rate_and_channels": "exact",
+  "source_hash": "exact",
+  "peak_headroom_db": 0.3
+}
