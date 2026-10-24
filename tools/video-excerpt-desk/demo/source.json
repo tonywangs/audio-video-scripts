@@ -1,0 +1,12 @@
+{
+  "title": "Big Buck Bunny trailer",
+  "url": "https://media.w3.org/2010/05/bunny/trailer.mp4",
+  "license": "CC BY 3.0",
+  "licenseURL": "https://creativecommons.org/licenses/by/3.0/",
+  "rightsEvidence": "https://peach.blender.org/about/",
+  "attribution": "(c) copyright 2008, Blender Foundation / www.bigbuckbunny.org",
+  "mirror": "W3C HTML5 video example archive",
+  "sha256": "b2ded9ae5a20fa36ca8cec49ef923bffb5e1a51d9e8c1f8336273d2fa9d35ff0",
+  "bytes": 11053871,
+  "acquire": "npm run acquire"
+}
