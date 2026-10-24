@@ -1,0 +1,32 @@
+{
+  "offset-python-srt": {
+    "cues": 26,
+    "every_text_exact": true,
+    "max_endpoint_error_ms": 0,
+    "tolerance_ms": 1
+  },
+  "offset-webvtt-py": {
+    "cues": 26,
+    "every_text_exact": true,
+    "max_endpoint_error_ms": 0,
+    "tolerance_ms": 1
+  },
+  "drift-python-srt": {
+    "cues": 26,
+    "every_text_exact": true,
+    "max_endpoint_error_ms": 0,
+    "tolerance_ms": 1
+  },
+  "drift-webvtt-py": {
+    "cues": 26,
+    "every_text_exact": true,
+    "max_endpoint_error_ms": 0,
+    "tolerance_ms": 1
+  },
+  "drift-chromium-native-vtt": {
+    "cues": 26,
+    "every_text_exact": true,
+    "max_endpoint_error_ms": 0,
+    "tolerance_ms": 1
+  }
+}

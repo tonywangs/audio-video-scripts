@@ -1,0 +1,198 @@
+{
+  "method": "faster-whisper 1.2.1 small.en CPU int8; no subtitle prompt; beam 5; temperature 0",
+  "limitation": "ASR word times are approximate and can hallucinate; this is not human listening or frame-accurate ground truth.",
+  "media_sha256": "edfad1c5926dee2ecfe37004b4ddc8b978cded01f0bd54c61b70576296272f51",
+  "windows": [
+    {
+      "region": "beginning",
+      "window_seconds": [
+        104,
+        117
+      ],
+      "segments": [
+        {
+          "start": 106.18,
+          "end": 109.14,
+          "text": " This blade has a dark past.",
+          "words": [
+            {
+              "start": 106.18,
+              "end": 107.2,
+              "text": " This",
+              "probability": 0.8092368841171265
+            },
+            {
+              "start": 107.2,
+              "end": 107.72,
+              "text": " blade",
+              "probability": 0.9636461138725281
+            },
+            {
+              "start": 107.72,
+              "end": 108.12,
+              "text": " has",
+              "probability": 0.9812285304069519
+            },
+            {
+              "start": 108.12,
+              "end": 108.3,
+              "text": " a",
+              "probability": 0.907762348651886
+            },
+            {
+              "start": 108.3,
+              "end": 108.58,
+              "text": " dark",
+              "probability": 0.8020827174186707
+            },
+            {
+              "start": 108.58,
+              "end": 109.14,
+              "text": " past.",
+              "probability": 0.7900137901306152
+            }
+          ]
+        },
+        {
+          "start": 110.62,
+          "end": 113.92,
+          "text": " It has shed much innocent blood.",
+          "words": [
+            {
+              "start": 110.62,
+              "end": 111.64,
+              "text": " It",
+              "probability": 0.9657894968986511
+            },
+            {
+              "start": 111.64,
+              "end": 111.82,
+              "text": " has",
+              "probability": 0.9896811842918396
+            },
+            {
+              "start": 111.82,
+              "end": 112.24,
+              "text": " shed",
+              "probability": 0.9970636963844299
+            },
+            {
+              "start": 112.24,
+              "end": 112.74,
+              "text": " much",
+              "probability": 0.9853262901306152
+            },
+            {
+              "start": 112.74,
+              "end": 113.44,
+              "text": " innocent",
+              "probability": 0.9306318759918213
+            },
+            {
+              "start": 113.44,
+              "end": 113.92,
+              "text": " blood.",
+              "probability": 0.9993852376937866
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "region": "middle",
+      "window_seconds": [
+        442,
+        449
+      ],
+      "segments": [
+        {
+          "start": 444.44,
+          "end": 446.44,
+          "text": " I have failed.",
+          "words": [
+            {
+              "start": 444.44,
+              "end": 445.84,
+              "text": " I",
+              "probability": 0.8497256636619568
+            },
+            {
+              "start": 445.84,
+              "end": 445.96,
+              "text": " have",
+              "probability": 0.68459153175354
+            },
+            {
+              "start": 445.96,
+              "end": 446.44,
+              "text": " failed.",
+              "probability": 0.9885609745979309
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "region": "end",
+      "window_seconds": [
+        619,
+        632
+      ],
+      "segments": [
+        {
+          "start": 620.42,
+          "end": 621.82,
+          "text": " Scales?",
+          "words": [
+            {
+              "start": 620.42,
+              "end": 621.82,
+              "text": " Scales?",
+              "probability": 0.6223520040512085
+            }
+          ]
+        },
+        {
+          "start": 624.9,
+          "end": 625.0,
+          "text": " Scales?",
+          "words": [
+            {
+              "start": 624.9,
+              "end": 625.6,
+              "text": " Scales?",
+              "probability": 0.968921571969986
+            }
+          ]
+        },
+        {
+          "start": 629.12,
+          "end": 630.52,
+          "text": " Scales?",
+          "words": [
+            {
+              "start": 629.12,
+              "end": 630.52,
+              "text": " Scales?",
+              "probability": 0.510240787640214
+            }
+          ]
+        },
+        {
+          "start": 630.52,
+          "end": 630.62,
+          "text": " you",
+          "words": [
+            {
+              "start": 630.52,
+              "end": 630.62,
+              "text": " you",
+              "probability": 0.11600517481565475
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "model_revision": "d1d751a5f8271d482d14ca55d9e2deeebbae577f"
+}

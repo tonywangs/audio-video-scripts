@@ -1,0 +1,24 @@
+{
+  "browser": "145.0.7632.6",
+  "media": {
+    "duration": 888.032,
+    "width": 1280,
+    "height": 544
+  },
+  "cueCount": 26,
+  "checks": [
+    "local video/subtitle import",
+    "decoded video playback advances",
+    "offset before/after caption difference",
+    "offset undo",
+    "two selected drift anchors",
+    "drift before/after at beginning middle end",
+    "reload recovery",
+    "project file export/import and undo",
+    "SRT/VTT downloads",
+    "negative timestamp blocking and recovery",
+    "native browser WebVTT parse",
+    "mobile screenshot"
+  ],
+  "consoleErrors": []
+}
