@@ -1,0 +1,225 @@
+{
+  "schema": "audio-loudness-desk-export-v1",
+  "complete": true,
+  "files": [
+    {
+      "source": {
+        "name": "speech.wav",
+        "sha256": "0271b5d08dba5b240e17bb67d0af920fd6941e35af86c928d92ac4ef9105ffe4",
+        "channels": 1,
+        "sample_rate": 22050,
+        "frames": 327222,
+        "sample_width": 2,
+        "duration": 14.84,
+        "measurements": {
+          "integrated_lufs": -20.15,
+          "true_peak_dbtp": -1.82,
+          "loudness_range_lu": 3.1,
+          "gate_lufs": -30.37,
+          "meter": "FFmpeg loudnorm / EBU R128",
+          "dual_mono": false
+        },
+        "state": "ready",
+        "provenance": {
+          "kind": "speech",
+          "title": "Ashiel Mystery \u2013 A Detective Story (LibriSpeech excerpt)",
+          "author": "Garth Comira",
+          "source_url": "https://www.openslr.org/12/",
+          "download_url": "https://librosa.org/data/audio/5703-47212-0000.ogg",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "license_evidence_url": "https://librosa.org/data/audio/5703-47212-0000.txt",
+          "license_evidence": "Ashiel Mystery - A Detective Story, chapter 2, narrated by Garth Comira\nFrom the LibriSpeech SLR12 collection: https://www.openslr.org/12/\nCC-BY 4.0 https://creativecommons.org/licenses/by/4.0/\n",
+          "license_evidence_sha256": "1c5bd5eb792ff0d2fbe895e3a3dd0acf3beb48ee364e64e12cde3a646304a9f4",
+          "original_file": "5703-47212-0000.ogg",
+          "source_sha256": "a284612b46af0535f7e1873758c4387bb8369f6dbbe192ffdec1f171108f98dd",
+          "demo_file": "speech.wav",
+          "demo_sha256": "0271b5d08dba5b240e17bb67d0af920fd6941e35af86c928d92ac4ef9105ffe4",
+          "changes": "First up to 20 seconds decoded to PCM 16-bit, original sample rate and channels; metadata removed.",
+          "metadata": {
+            "channels": 1,
+            "sample_rate": 22050,
+            "frames": 327222,
+            "sample_width": 2,
+            "duration": 14.84
+          }
+        }
+      },
+      "requested": {
+        "lufs": -23.0,
+        "peak": -1.0
+      },
+      "status": "complete",
+      "output": {
+        "sha256": "7ed8af3aa52e1616637c3bf404ff7ce1bea679698ece8ecb696478ec229d7a24",
+        "bytes": 981734,
+        "channels": 1,
+        "sample_rate": 22050,
+        "frames": 327222,
+        "sample_width": 3,
+        "duration": 14.84,
+        "measurements": {
+          "integrated_lufs": -23.0,
+          "true_peak_dbtp": -4.67,
+          "loudness_range_lu": 3.0,
+          "gate_lufs": -33.22,
+          "meter": "FFmpeg loudnorm / EBU R128",
+          "dual_mono": false
+        },
+        "filename": "01_speech_normalized.wav"
+      },
+      "tolerances": {
+        "version": 1,
+        "declared_before_real_export_evaluation": true,
+        "integrated_loudness_lu": 0.5,
+        "meter_disagreement_lu": 0.5,
+        "peak_limit_db": 0.1,
+        "peak_estimator_disagreement_db": 0.5,
+        "duration_samples": 0,
+        "sample_rate_and_channels": "exact",
+        "source_hash": "exact",
+        "peak_headroom_db": 0.3
+      },
+      "checks": {
+        "loudness": true,
+        "peak": true,
+        "frames": true,
+        "sample_rate": true,
+        "channels": true,
+        "source_preserved": true
+      },
+      "reason": "Target achieved within declared tolerances.",
+      "processing": {
+        "implementation": "ffmpeg version 7.0.2-static https://johnvansickle.com/ffmpeg/  Copyright (c) 2000-2024 the FFmpeg developers",
+        "mode": "constant_gain_peak_capped",
+        "gain_db": -2.8500000000000014,
+        "desired_gain_db": -2.8500000000000014,
+        "peak_capped": false,
+        "dynamic_processing": false,
+        "limiter": false,
+        "dual_mono": false,
+        "encoding": "pcm_s24le",
+        "sample_rate": 22050,
+        "channels": 1,
+        "channel_handling": "unchanged",
+        "resampling": false,
+        "filter": "volume=-2.85000000dB:precision=double"
+      }
+    },
+    {
+      "source": {
+        "name": "music.wav",
+        "sha256": "72664ee85608ede440029b4aeedd1e912addf68da140c9141d02eb0af8a644e8",
+        "channels": 1,
+        "sample_rate": 22050,
+        "frames": 441000,
+        "sample_width": 2,
+        "duration": 20.0,
+        "measurements": {
+          "integrated_lufs": -22.07,
+          "true_peak_dbtp": -3.7,
+          "loudness_range_lu": 4.5,
+          "gate_lufs": -32.09,
+          "meter": "FFmpeg loudnorm / EBU R128",
+          "dual_mono": false
+        },
+        "state": "ready",
+        "provenance": {
+          "kind": "music",
+          "title": "Vibe Ace",
+          "author": "Kevin MacLeod",
+          "source_url": "https://freemusicarchive.org/music/Kevin_MacLeod/Jazz_Sampler/Vibe_Ace",
+          "download_url": "https://librosa.org/data/audio/Kevin_MacLeod_-_Vibe_Ace.ogg",
+          "license_url": "https://creativecommons.org/licenses/by/3.0/",
+          "license_evidence_url": "https://librosa.org/data/audio/Kevin_MacLeod_-_Vibe_Ace.txt",
+          "license_evidence": "Vibe Ace by Kevin MacLeod is licensed under a Creative Commons Attribution License.\nFrom the Free Music Archive: https://freemusicarchive.org/music/Kevin_MacLeod/Jazz_Sampler/Vibe_Ace\nCC-BY https://creativecommons.org/licenses/by/3.0/\n",
+          "license_evidence_sha256": "6c71e0525cb0452ea74c6d6f5fde6fa1e221223db7b2aa35b9914b98367ee7b9",
+          "original_file": "Kevin_MacLeod_-_Vibe_Ace.ogg",
+          "source_sha256": "6c23aed3dd5aa57f2b1652ecab68d15d9b82ad257f54e639eb2880ca09bc118a",
+          "demo_file": "music.wav",
+          "demo_sha256": "72664ee85608ede440029b4aeedd1e912addf68da140c9141d02eb0af8a644e8",
+          "changes": "First up to 20 seconds decoded to PCM 16-bit, original sample rate and channels; metadata removed.",
+          "metadata": {
+            "channels": 1,
+            "sample_rate": 22050,
+            "frames": 441000,
+            "sample_width": 2,
+            "duration": 20.0
+          }
+        }
+      },
+      "requested": {
+        "lufs": -23.0,
+        "peak": -1.0
+      },
+      "status": "complete",
+      "output": {
+        "sha256": "b5f11c6b7c8f3200974cd7a13027d3e14ce29f99d6ec19e03da3210c18520dce",
+        "bytes": 1323068,
+        "channels": 1,
+        "sample_rate": 22050,
+        "frames": 441000,
+        "sample_width": 3,
+        "duration": 20.0,
+        "measurements": {
+          "integrated_lufs": -23.0,
+          "true_peak_dbtp": -4.63,
+          "loudness_range_lu": 4.5,
+          "gate_lufs": -33.01,
+          "meter": "FFmpeg loudnorm / EBU R128",
+          "dual_mono": false
+        },
+        "filename": "02_music_normalized.wav"
+      },
+      "tolerances": {
+        "version": 1,
+        "declared_before_real_export_evaluation": true,
+        "integrated_loudness_lu": 0.5,
+        "meter_disagreement_lu": 0.5,
+        "peak_limit_db": 0.1,
+        "peak_estimator_disagreement_db": 0.5,
+        "duration_samples": 0,
+        "sample_rate_and_channels": "exact",
+        "source_hash": "exact",
+        "peak_headroom_db": 0.3
+      },
+      "checks": {
+        "loudness": true,
+        "peak": true,
+        "frames": true,
+        "sample_rate": true,
+        "channels": true,
+        "source_preserved": true
+      },
+      "reason": "Target achieved within declared tolerances.",
+      "processing": {
+        "implementation": "ffmpeg version 7.0.2-static https://johnvansickle.com/ffmpeg/  Copyright (c) 2000-2024 the FFmpeg developers",
+        "mode": "constant_gain_peak_capped",
+        "gain_db": -0.9299999999999997,
+        "desired_gain_db": -0.9299999999999997,
+        "peak_capped": false,
+        "dynamic_processing": false,
+        "limiter": false,
+        "dual_mono": false,
+        "encoding": "pcm_s24le",
+        "sample_rate": 22050,
+        "channels": 1,
+        "channel_handling": "unchanged",
+        "resampling": false,
+        "filter": "volume=-0.93000000dB:precision=double"
+      }
+    }
+  ],
+  "tolerances": {
+    "version": 1,
+    "declared_before_real_export_evaluation": true,
+    "integrated_loudness_lu": 0.5,
+    "meter_disagreement_lu": 0.5,
+    "peak_limit_db": 0.1,
+    "peak_estimator_disagreement_db": 0.5,
+    "duration_samples": 0,
+    "sample_rate_and_channels": "exact",
+    "source_hash": "exact",
+    "peak_headroom_db": 0.3
+  },
+  "note": "Measured loudness is not subjective quality. No human listening assessment. Target-not-met copies remain usable but require review."
+}

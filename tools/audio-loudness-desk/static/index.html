@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Audio Loudness Desk</title><link rel="stylesheet" href="/style.css"><script defer src="/app.js"></script></head>
+<body><header><div class="brand">◒ &nbsp; AUDIO / LOUDNESS DESK</div><span class="local">LOCAL PROCESSING · PCM WAV</span></header>
+<main><section class="intro"><p class="eyebrow">A CLEARER LEVEL, AN HONEST RESULT</p><h1>Make your recordings<br>sit at the same level.</h1><p>Measure, set a target, and compare a copy. Constant gain preserves dynamics.<br>When a peak limit prevents your target, you’ll see exactly what happened.</p></section>
+<section class="toolbar" aria-label="Project actions"><label class="button primary">Import WAV files<input id="files" type="file" accept=".wav" multiple></label><button id="demo">Load real-audio demo</button><button id="save">Save project</button><label class="button">Open project<input id="project" type="file" accept=".json"></label><button id="export">Export WAVs + manifest</button><button id="clear" class="quiet">Clear desk</button></section>
+<p class="limits">Mono/stereo · 16/24-bit PCM WAV · 8–48 kHz · 3–120 seconds for processing · 4 files / 32 MiB total / 12 MiB each</p>
+<div id="notice" role="status" aria-live="polite">Ready. Import recordings or load the licensed speech + music demo.</div>
+<div id="tracks"></div>
+<section id="empty"><div class="bars" aria-hidden="true">▂ ▄ ▆ ▃ █ ▅ ▂ ▇ ▄ ▆ ▃</div><h2>Your listening desk is empty</h2><p>Start with a recording. Your originals stay untouched.</p></section>
+<section class="notes"><h2>Know what changed.</h2><div><p><strong>Measured, not judged.</strong> LUFS measures integrated loudness, not subjective quality. A louder recording is not necessarily a better one. No human listening evaluation is implied.</p><p><strong>Peaks take priority.</strong> Gain is capped with 0.3 dB headroom. No compression or limiting. Unreachable targets are flagged and included as incomplete in the export manifest.</p><p><strong>Recover by identity.</strong> Only settings are saved in this browser and project JSON. Reattach the exact source files after reload; SHA-256 must match before settings are restored.</p></div></section>
+<footer>FFmpeg measurement & processing · PCM 24-bit exports · Localhost only<br>Demo: Garth Comira / LibriSpeech (CC BY 4.0) and Kevin MacLeod, Vibe Ace (CC BY 3.0), via librosa. Excerpts converted to PCM.</footer>
+</main></body></html>

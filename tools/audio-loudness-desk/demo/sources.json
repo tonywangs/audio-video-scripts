@@ -1,0 +1,48 @@
+[
+  {
+    "kind": "speech",
+    "title": "Ashiel Mystery \u2013 A Detective Story (LibriSpeech excerpt)",
+    "author": "Garth Comira",
+    "source_url": "https://www.openslr.org/12/",
+    "download_url": "https://librosa.org/data/audio/5703-47212-0000.ogg",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "license_evidence_url": "https://librosa.org/data/audio/5703-47212-0000.txt",
+    "license_evidence": "Ashiel Mystery - A Detective Story, chapter 2, narrated by Garth Comira\nFrom the LibriSpeech SLR12 collection: https://www.openslr.org/12/\nCC-BY 4.0 https://creativecommons.org/licenses/by/4.0/\n",
+    "license_evidence_sha256": "1c5bd5eb792ff0d2fbe895e3a3dd0acf3beb48ee364e64e12cde3a646304a9f4",
+    "original_file": "5703-47212-0000.ogg",
+    "source_sha256": "a284612b46af0535f7e1873758c4387bb8369f6dbbe192ffdec1f171108f98dd",
+    "demo_file": "speech.wav",
+    "demo_sha256": "0271b5d08dba5b240e17bb67d0af920fd6941e35af86c928d92ac4ef9105ffe4",
+    "changes": "First up to 20 seconds decoded to PCM 16-bit, original sample rate and channels; metadata removed.",
+    "metadata": {
+      "channels": 1,
+      "sample_rate": 22050,
+      "frames": 327222,
+      "sample_width": 2,
+      "duration": 14.84
+    }
+  },
+  {
+    "kind": "music",
+    "title": "Vibe Ace",
+    "author": "Kevin MacLeod",
+    "source_url": "https://freemusicarchive.org/music/Kevin_MacLeod/Jazz_Sampler/Vibe_Ace",
+    "download_url": "https://librosa.org/data/audio/Kevin_MacLeod_-_Vibe_Ace.ogg",
+    "license_url": "https://creativecommons.org/licenses/by/3.0/",
+    "license_evidence_url": "https://librosa.org/data/audio/Kevin_MacLeod_-_Vibe_Ace.txt",
+    "license_evidence": "Vibe Ace by Kevin MacLeod is licensed under a Creative Commons Attribution License.\nFrom the Free Music Archive: https://freemusicarchive.org/music/Kevin_MacLeod/Jazz_Sampler/Vibe_Ace\nCC-BY https://creativecommons.org/licenses/by/3.0/\n",
+    "license_evidence_sha256": "6c71e0525cb0452ea74c6d6f5fde6fa1e221223db7b2aa35b9914b98367ee7b9",
+    "original_file": "Kevin_MacLeod_-_Vibe_Ace.ogg",
+    "source_sha256": "6c23aed3dd5aa57f2b1652ecab68d15d9b82ad257f54e639eb2880ca09bc118a",
+    "demo_file": "music.wav",
+    "demo_sha256": "72664ee85608ede440029b4aeedd1e912addf68da140c9141d02eb0af8a644e8",
+    "changes": "First up to 20 seconds decoded to PCM 16-bit, original sample rate and channels; metadata removed.",
+    "metadata": {
+      "channels": 1,
+      "sample_rate": 22050,
+      "frames": 441000,
+      "sample_width": 2,
+      "duration": 20.0
+    }
+  }
+]
