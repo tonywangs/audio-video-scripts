@@ -1,4 +1,7 @@
-# Personal Media Tools
+# Undertone
+
+Audio and video editing, timing, and loudness.
+
 
 Independent utilities collected into one private repository. Each lives under `tools/<name>/`; run its installation and commands from that directory. This is a source consolidation, not a unified application.
 
