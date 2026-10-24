@@ -1,0 +1,42 @@
+{
+  "schema": 1,
+  "batch": "231d240c-3492-4067-9f93-d49206baf505",
+  "created": "2026-10-19T18:44:18.364Z",
+  "source": {
+    "sha256": "b2ded9ae5a20fa36ca8cec49ef923bffb5e1a51d9e8c1f8336273d2fa9d35ff0",
+    "bytes": 11053871,
+    "width": 853,
+    "height": 480,
+    "fps": 25,
+    "frames": 811,
+    "duration": 32.44,
+    "audio": true,
+    "audioChannels": 6,
+    "codec": "h264",
+    "container": "mp4"
+  },
+  "semantics": "Requested [start,end) seconds. Include frames with presentation timestamps >= start and < end; audio uses those realized frame bounds.",
+  "encoding": {
+    "video": "libx264",
+    "crf": 18,
+    "preset": "fast",
+    "pixelFormat": "yuv420p",
+    "audio": "aac 192k stereo 48000Hz",
+    "padding": "right/bottom to even dimensions",
+    "quality": "Lossy re-encode; multichannel audio downmixed to stereo."
+  },
+  "clips": [
+    {
+      "index": 0,
+      "name": "must fail",
+      "requested": {
+        "start": 0,
+        "end": 1
+      },
+      "status": "failed",
+      "error": "Source bytes changed; reconnect original source"
+    }
+  ],
+  "sourceUnchanged": false,
+  "status": "partial"
+}

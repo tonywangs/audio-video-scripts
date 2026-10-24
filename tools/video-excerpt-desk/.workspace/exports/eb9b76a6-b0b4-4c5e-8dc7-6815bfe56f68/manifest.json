@@ -1,0 +1,95 @@
+{
+  "schema": 1,
+  "batch": "eb9b76a6-b0b4-4c5e-8dc7-6815bfe56f68",
+  "created": "2026-10-19T18:43:52.468Z",
+  "source": {
+    "sha256": "b2ded9ae5a20fa36ca8cec49ef923bffb5e1a51d9e8c1f8336273d2fa9d35ff0",
+    "bytes": 11053871,
+    "width": 853,
+    "height": 480,
+    "fps": 25,
+    "frames": 811,
+    "duration": 32.44,
+    "audio": true,
+    "audioChannels": 6,
+    "codec": "h264",
+    "container": "mp4"
+  },
+  "semantics": "Requested [start,end) seconds. Include frames with presentation timestamps >= start and < end; audio uses those realized frame bounds.",
+  "encoding": {
+    "video": "libx264",
+    "crf": 18,
+    "preset": "fast",
+    "pixelFormat": "yuv420p",
+    "audio": "aac 192k stereo 48000Hz",
+    "padding": "right/bottom to even dimensions",
+    "quality": "Lossy re-encode; multichannel audio downmixed to stereo."
+  },
+  "clips": [
+    {
+      "index": 0,
+      "name": "Opening",
+      "requested": {
+        "start": 0,
+        "end": 2.04
+      },
+      "status": "exported",
+      "realized": {
+        "firstFrame": 0,
+        "exclusiveEndFrame": 51,
+        "start": 0,
+        "end": 2.04,
+        "duration": 2.04
+      },
+      "filename": "01-Opening.mp4",
+      "sha256": "a5b223438d3fde28682e1f92df229fbef0f7c632c47915577a4f2828fd8d5c51",
+      "outputDuration": 2.04,
+      "videoDuration": 2.04,
+      "audioDuration": 2.04
+    },
+    {
+      "index": 1,
+      "name": "Rabbit passage",
+      "requested": {
+        "start": 5.013,
+        "end": 8.017
+      },
+      "status": "exported",
+      "realized": {
+        "firstFrame": 126,
+        "exclusiveEndFrame": 201,
+        "start": 5.04,
+        "end": 8.04,
+        "duration": 3
+      },
+      "filename": "02-Rabbit-passage.mp4",
+      "sha256": "69e16942ed0576336481a8589b62f6c1edc93bbb4283a27057fe7a00a513486b",
+      "outputDuration": 3,
+      "videoDuration": 3,
+      "audioDuration": 3
+    },
+    {
+      "index": 2,
+      "name": "Ending",
+      "requested": {
+        "start": 30.013,
+        "end": 32.44
+      },
+      "status": "exported",
+      "realized": {
+        "firstFrame": 751,
+        "exclusiveEndFrame": 811,
+        "start": 30.04,
+        "end": 32.44,
+        "duration": 2.4
+      },
+      "filename": "03-Ending.mp4",
+      "sha256": "4f215ddcf83103c614233f35d38479caadd9a4550cbfcfee30a7f6ceeb58db21",
+      "outputDuration": 2.4,
+      "videoDuration": 2.4,
+      "audioDuration": 2.4
+    }
+  ],
+  "sourceUnchanged": true,
+  "status": "complete"
+}
