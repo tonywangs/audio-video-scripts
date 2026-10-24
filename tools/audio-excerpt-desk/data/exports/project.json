@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "source": {
+    "name": "OSR_us_000_0010_8k.wav",
+    "sha256": "a4bf9becd046d7aedb6d05b6e12347a6294a44f74d263089c636fb0a2b1e6561",
+    "frames": 268985,
+    "rate": 8000,
+    "channels": 1,
+    "bits": 16,
+    "attribution": {
+      "credit": "Open Speech Repository",
+      "url": "https://www.voiptroubleshooter.com/open_speech/american/OSR_us_000_0010_8k.wav",
+      "license": "https://www.voiptroubleshooter.com/open_speech/american.html"
+    }
+  },
+  "excerpts": [
+    {
+      "name": "Opening words",
+      "start": 0,
+      "end": 8000
+    },
+    {
+      "name": "Overlap",
+      "start": 4000,
+      "end": 12000
+    },
+    {
+      "name": "Ending",
+      "start": 260985,
+      "end": 268985
+    }
+  ]
+}
